@@ -343,6 +343,9 @@
 	position: absolute;
 }
 
+html {
+	scroll-behavior: smooth;
+}
 
 body {
 	font-family: Arial, Helvetica, Sans-serif;
