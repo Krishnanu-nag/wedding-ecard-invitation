@@ -405,6 +405,23 @@ img {
 	text-align: center;
 }
 
+
+
+#invite-note{
+	font-family: 'Dancing Script', cursive;
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 32px;
+	color:  rgba(156, 32, 204, 1.0);
+	margin: 40px;
+	text-align: center;
+}
+#query-note{
+    text-align: center;
+	letter-spacing: 4px;
+	font-size: 16px;
+	color: #000000;}
+
 .title h3 {
 	font-weight: 300;
 	text-transform: uppercase;
@@ -574,6 +591,8 @@ footer{
 	width: 100vw;
 	margin-bottom: -8px;
 }
+
+
 
 /* .teaser{
 	width: 100vw;
