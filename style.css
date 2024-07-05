@@ -405,17 +405,28 @@ img {
 	text-align: center;
 }
 
-
-
 #invite-note{
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Dancing Script';
 	font-weight: bolder;
 	font-style: normal;
 	font-size: 32px;
 	color: #874562;;
-	margin: 40px;
 	text-align: center;
 }
+#invite-note-from{
+	position: relative;
+	top: -40px;
+	margin: 0px;
+	text-align: center;
+	font-family: 'Dancing Script';
+	font-weight: bolder;
+	font-style: normal;
+	font-size: 20px;
+	color: #674ea7;
+	text-align: center;
+}
+
+
 #query-note{
     text-align: center;
 	letter-spacing: 4px;
@@ -595,7 +606,6 @@ footer{
 
   @media (max-width:950px) {
 	img {
-		max-width: 45%;
-		
+		max-width: 45%;		
 	}
 }
