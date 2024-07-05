@@ -412,7 +412,7 @@ img {
 	font-weight: bolder;
 	font-style: normal;
 	font-size: 32px;
-	color:  rgba(156, 32, 204, 1.0);
+	color: #874562;;
 	margin: 40px;
 	text-align: center;
 }
@@ -495,14 +495,14 @@ body {
 
 .container {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	border-radius: 10px;
 	overflow: hidden;
 }
 
 .block {
-	width: 180px;
-	height: 160px;
+	width: 130px;
+	height: 100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -511,15 +511,14 @@ body {
 }
 
 .days {
-	background: linear-gradient(90deg, #b33a46, #9b313c);
-}
+	background: #800080;}
 
 .hours {
 	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
 }
 
 .minutes {
-	background-color: #874562;
+	background-color: #4B0082;
 }
 
 .seconds {
@@ -543,40 +542,11 @@ body {
 	margin: 24px;
 }
 
-.phone {
-	color: #874562
-}
-
-.end-msg {
-	width: auto;
-	height: auto;
-	padding: 12px;
-	background: linear-gradient(90deg, #b33a46, #9b313c);
-	border-radius: 20px;
-	font-size: 14px;
-	color: #fff;
-	font-size: 24px;
-}
 
 a {
 	text-decoration: none;
 }
 
-.happiness {
-	color: #874562;
-	font-size: 24px;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 24px;
-}
-
-.twitter {
-	color: #874562;
-}
-
-.music {
-	display: none;
-}
 
 .actions {
 	display: flex;
@@ -594,14 +564,6 @@ footer{
 
 
 
-/* .teaser{
-	width: 100vw;
-	color: aliceblue;
-	background-color: #000000;
-	text-align: center;
-	margin-bottom: -10px;
-} */
-
 #teaser{
 	text-align: center;
 	background-color:#674ea7;
@@ -612,6 +574,15 @@ footer{
 @media only screen and (max-width: 560px) {
 	iframe{
 		width: 100vw;
+	}
+	.block {
+		width: 20vw;
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: #fff;
 	}
 	/* .teaser{
 		width: 100vw;
