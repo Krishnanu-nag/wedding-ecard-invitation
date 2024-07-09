@@ -85,5 +85,3 @@ var x = setInterval(function() {
     setInterval(changecolor,300);
 
 //color script for only within a range for violet variation ends here///
-
-
