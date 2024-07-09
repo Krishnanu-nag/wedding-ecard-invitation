@@ -39,3 +39,51 @@ var x = setInterval(function() {
     }
 }, 1000);
 
+
+//auto color change of Teaser is here//
+
+    // let colorgenerator=()=>{
+    //     const hex="0123456789ABCDEF";
+    //     let colorcode="#";
+    //     for(let i=0 ;i<6;i++){
+    //         colorcode+=hex[Math.floor(Math.random()*16)]
+    //     }     
+    //     return colorcode;
+    // }
+    
+    // const changecolor=()=>{
+    //     const change=document.querySelector(".TeaserIsHere");
+    //     change.style.color=colorgenerator();
+    // }
+    // setInterval(changecolor,1000);
+
+//auto color change script of Teaser is here ends//
+
+//color only within a range for violet variation///
+    const code = [
+        "#E6E6FA", // Lavender
+        "#D8BFD8", // Thistle
+        "#DDA0DD", // Plum
+        "#EE82EE", // Violet
+        "#DA70D6", // Orchid
+        "#FF00FF", // Fuchsia
+        "#FF00FF", // Magenta
+        "#BA55D3", // Medium Orchid
+        "#8A2BE2", // Blue Violet
+        "#9400D3", // Dark Violet
+        "#9932CC", // Dark Orchid
+        "#8B008B", // Dark Magenta
+        "#800080", // Purple
+        "#4B0082", // Indigo
+        "#483D8B", // Dark Slate Blue
+        "#663399"  // Rebecca Purple
+      ];
+    const changecolor=()=>{
+        const change=document.querySelector(".TeaserIsHere");
+        change.style.color=code[Math.floor(Math.random()*16)]
+    }
+    setInterval(changecolor,300);
+
+//color script for only within a range for violet variation ends here///
+
+
