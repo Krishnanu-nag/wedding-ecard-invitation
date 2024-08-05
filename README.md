@@ -1,7 +1,3 @@
-Certainly! Here’s the updated README with the License section without the "Let me know if you need any more changes" part:
-
----
-
 # 🎉 Wedding E-Card Invitation 🎉
 
 Welcome to the Wedding E-Card Invitation repository! 🎊 This project is designed to provide a seamless and elegant way for guests to RSVP to your special day.
@@ -22,11 +18,6 @@ Click [here](https://krishnanu-nag.github.io/wedding-ecard-invitation/) to visit
 - **CSS**: For styling and making the e-card visually appealing.
 - **JavaScript**: For interactive elements and dynamic content.
 
-## 📷 Preview
-
-Here’s a sneak peek of what the e-card looks like:
-
-![E-Card Preview](https://your-image-link-here.com)
 
 ## 📜 License
 
